@@ -1,6 +1,6 @@
 clear; clc;
 
-inputFolder = '/MATLAB Drive/OGRE/Trials';
+inputFolder = "C:\Users\shere\chips\trial1";
 outputCSV = fullfile(inputFolder, 'fracture_energy.csv');
 
 figFiles = dir(fullfile(inputFolder, '*.fig'));
